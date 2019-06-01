@@ -23,8 +23,8 @@ class ChatScreenState extends State<ChatScreen> {
   List<Msg> l = [
     Msg("Hi", true),
     Msg("Hi", false),
-    Msg("Hi", true),
-    Msg("Hi", false),
+    Msg("Wanna colab?", true),
+    Msg("Why not?", false),
   ];
   final TextEditingController _textEditingController =
       new TextEditingController();
