@@ -1,5 +1,6 @@
 import 'dart:async';
 import 'package:flutter/material.dart';
+import 'package:gmaps/ChatHomePage.dart';
 import 'package:gmaps/forum.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
 import 'login.dart';
@@ -12,6 +13,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       routes: {
+        "/chat": (bc) => ChatHomePage(),
         "/map": (bc) => MapSample(),
         "/forum": (bc) => ForumPage(),
       },
